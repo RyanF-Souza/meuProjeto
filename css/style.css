@@ -1,0 +1,77 @@
+body{
+  background-color: #96E669;
+  color: #454A4D;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.geral{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #96E669;
+  width: 900px;
+}
+.horizontal{
+  margin-bottom: 0px;
+  border-radius: 10px;
+  width: 900px;
+  margin-top: 40px;
+}
+.capa{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 900px;
+  border-radius: 10px;
+}
+.vertical{
+  text-align: center;
+}
+#abaixovertic{
+  margin-top: 0px;
+}
+.navegacao-bar{
+  background-color: #D2FC68;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 0px;
+  text-align: center;
+  border-radius: 20px;
+}
+.nav-link{
+  text-decoration: unset;
+  display: inline-block;
+  margin-left: 23PX;
+  margin-right: 23PX;
+  color: #818BE6;
+  font-weight: bold;
+  font-size: 21.05px;
+}
+.conteudo{
+  background-color: #96E669;
+  margin-top: 29px;
+}
+.colorBox{
+  background-color: #D2FC68;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 40px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+li{
+  margin-bottom: 10px;
+}
+footer{
+  text-align: center;
+}
+.pFootC1{
+  padding-top: 89px;
+}
+.pFootC2{
+  padding-top: 120px;
+}
+#comenta{
+  border-radius: 5%;
+}
+#email{
+  margin-left: 5px;
+}
