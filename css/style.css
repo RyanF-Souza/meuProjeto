@@ -1,61 +1,86 @@
 body{
-  background-color: #96E669;
-  color: #454A4D;
+  background-image: url(../img/fundo.jpg);
+  background-attachment: fixed;
+  background-size: 1400px;
+  background-repeat: no-repeat;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .geral{
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0px auto 0px;
   background-color: #96E669;
   width: 900px;
+  border-radius: 0px 0px 5px 5px;
+}
+h1{
+  margin-left: 14px;
 }
 .horizontal{
-  margin-bottom: 0px;
   border-radius: 10px;
-  width: 900px;
-  margin-top: 40px;
+  width: 886px;
+  margin: 30px 7px 0px;
 }
 .capa{
-  margin-top: 0px;
-  margin-bottom: 0px;
-  width: 900px;
+  margin: 7px 7px 0px;
+  width: 886px;
   border-radius: 10px;
 }
 .vertical{
-  text-align: center;
-}
-#abaixovertic{
-  margin-top: 0px;
+  float: right;
+  height: 400px;
 }
 .navegacao-bar{
   background-color: #D2FC68;
   height: 40px;
-  line-height: 40px;
-  margin-top: 0px;
+  margin: 8px 7px 0px;
   text-align: center;
   border-radius: 20px;
 }
 .nav-link{
   text-decoration: unset;
   display: inline-block;
-  margin-left: 23PX;
-  margin-right: 23PX;
+  margin: 5px 11px;
   color: #818BE6;
   font-weight: bold;
   font-size: 21.05px;
+  border-radius: 20px;
+  height: 30px;
+  padding: 0px 10px;
+  line-height: 30px;
+}
+.nav-link:hover{
+  background-color: #94C451;
+}
+.nav-link:active{
+  background-color: #99BF8A;
 }
 .conteudo{
   background-color: #96E669;
   margin-top: 29px;
 }
+#contato{
+  margin-left: 14px;
+}
 .colorBox{
   background-color: #D2FC68;
   border-radius: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 1px;
   padding-bottom: 1px;
+  margin: 40px 7px 0px;
+}
+#separador{
+  padding-top: 0.1px;
+  margin-top: 40px;
+}
+#ladovertic{
+  width: 500px;
+  margin-top: 8px;
+  margin-left: 42px;
+  text-align: center;
+}
+#abaixovertic{
+  margin-top: 280px;
 }
 li{
   margin-bottom: 10px;
@@ -64,10 +89,7 @@ footer{
   text-align: center;
 }
 .pFootC1{
-  padding-top: 89px;
-}
-.pFootC2{
-  padding-top: 120px;
+  padding-top: 50px;
 }
 #comenta{
   border-radius: 5%;
